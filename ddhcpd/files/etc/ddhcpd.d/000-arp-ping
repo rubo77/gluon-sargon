@@ -2,6 +2,7 @@
 
 case "$1" in
   (lease): 
+    # TODO: still fixed IP
     ping -c 1 -w 1 -I 10.116.254.254 "$2"
   break;
 esac
